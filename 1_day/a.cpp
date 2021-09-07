@@ -2,12 +2,13 @@
 using namespace std;
 
 int main(){
-    int n;
-    int cnt = 0;
-    while(cin >> n){
-        cnt += n;
-    }
-    cout << cnt << "\n";
+    int a, b;
+    cin >> a >> b;
+    cout << a + b << endl;
 }
 
-// 
+// #include <iostream>
+// #include <vector>
+// #include <cmath> pow sqrt log
+// endl - newline
+// "\n" - newline (faster)
