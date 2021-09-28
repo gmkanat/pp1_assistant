@@ -4,7 +4,7 @@ using namespace std;
 int main(){
     int n, l, r;
     cin >> n >> l >> r;
-    int sum = 0;
+    long long sum = 0;
     int a[n];
     l--;
     r--;

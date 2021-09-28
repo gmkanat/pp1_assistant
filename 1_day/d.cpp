@@ -8,4 +8,4 @@ int main(){
     cout  << fixed << setprecision(10) << d << "\n";
 }
 
-// fixed numberation after dot.
+// fixed numeration after dot.

@@ -1,4 +1,5 @@
-#include <bits/stdc++.h>
+#include <iostream>
+
 using namespace std;
 
 int main(){
@@ -20,12 +21,11 @@ int main(){
     for(int i = 0; i < n; i++){
         c[i] = a[i];
     }
-
     for(int i = 0; i < m; i++){
         c[n + i] = b[i];
     }
-
     sort(c, c + n + m);
+
     for(int i = 0; i < n + m; i++){
         cout << c[i] << " ";
     }
