@@ -19,31 +19,31 @@ int main(){
     // }
 
     // 2nd solution
-    int a[10];
-    int n;
-    cin >> n;
-    for(int i = 0; i < 10; i++){
-        a[i] = 0;
-    }
-    int mx = 0;
-    while(n > 0){
-        int x;
-        cin >> x;
-        x = n % 10;
-        a[x]++;
+    // int a[10];
+    // int n;
+    // cin >> n;
+    // for(int i = 0; i < 10; i++){
+    //     a[i] = 0;
+    // }
+    // int mx = 0;
+    // while(n > 0){
+    //     int x;
+    //     cin >> x;
+    //     x = n % 10;
+    //     a[x]++;
 
-        mx = max(mx, a[x]);
-        n /= 10;
-    }
-    for(int i = 0; i < 10; i++){
-        if(a[i] > 0){
-            if(mx != a[i]){
-                cout << "NO\n";
-                return 0;
-            }
-        }
-    }
-    cout << "YES\n";
+    //     mx = max(mx, a[x]);
+    //     n /= 10;
+    // }
+    // for(int i = 0; i < 10; i++){
+    //     if(a[i] > 0){
+    //         if(mx != a[i]){
+    //             cout << "NO\n";
+    //             return 0;
+    //         }
+    //     }
+    // }
+    // cout << "YES\n";
 
 }
 

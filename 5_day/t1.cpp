@@ -7,7 +7,7 @@ int main(){
     int cnt = 0;
 
     // bruteforce solution
-    for(int j = 0; j < s.size(); j++){
+    for(int j = 0; j < s.size(); j++){ 
         for(int x = 'a'; x <= 'z'; x++){
             string k;
             for(int i = 0; i < s.size(); i++){
@@ -18,6 +18,7 @@ int main(){
                 k += s[i];
             }   
             string t = k;
+            cout << t << endl;
             reverse(t.begin(), t.end());
             if(t == k){
                 cout << "YES\n";

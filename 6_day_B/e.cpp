@@ -1,6 +1,8 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+
+
 float hypo(int a, int b){
     return sqrt(a*a + b*b);
 }
