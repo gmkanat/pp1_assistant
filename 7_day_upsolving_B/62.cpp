@@ -8,6 +8,7 @@ int main(){
     int ans = 0;
     for(int i=s.size()-1 ; i >= 0  ; i--){
         ans += pow(26,s.size()-i-1) * (s[i] - 'A'+1);
+        cout << pow(26,s.size()-i-1) * (s[i] - 'A'+1) << endl;
     }
     cout<<ans;
 

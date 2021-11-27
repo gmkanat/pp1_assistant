@@ -2,6 +2,9 @@
 using namespace std;
 
 bool cmp(pair<pair<int,int>, int> a, pair<pair<int,int>, int> b){
+    if(a.first.first + a.first.second == b.first.first + b.first.second){
+        return a.second < b.second;
+    }
     return (a.first.first + a.first.second) < (b.first.first + b.first.second); 
 }
 

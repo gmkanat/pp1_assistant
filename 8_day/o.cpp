@@ -8,10 +8,10 @@ int main(){
     while(n > 0){
         int k = n%x;
         if(k > 9){
-            s += k - 10 + 'A';
+            s += k - 10 + 'A'; 
         }
         else{
-            s += k + '0';
+            s += k + '0'; // цифр на char
         } 
         n /= x;
     }

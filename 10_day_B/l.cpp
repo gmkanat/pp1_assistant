@@ -1,17 +1,18 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+
 int main(){
-    map<int,int> mp;
     int n;
     cin >> n;
-    for(int i = 0; i < n; i++){
+    vector<pair<int,int>> v;
+    for(int i = 1; i <= n; i++){
         int x, y;
         cin >> x >> y;
-        mp[x + y] = i + 1;
+        v.push_back({x + y, i});
     }
-
-    for(auto &x: mp){
+    sort(v.begin(), v.end());
+    for(auto &x: v){
         cout << x.second << " ";
     }
 }

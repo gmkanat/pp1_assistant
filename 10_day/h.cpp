@@ -8,7 +8,7 @@ int main(){
     for(int i = 1; i <= n; i++){
         string s;
         cin >> s;
-        if(mp.count(s) == 0){ // mp.count()  0 - no such key  1 exist
+        if(mp.count(s) == 0){ // mp.count()  0 - no such key exist
             mp[s] = i;
         }
     }

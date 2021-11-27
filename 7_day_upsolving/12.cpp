@@ -5,7 +5,7 @@ int main(){
     long long n, d, c, di, ci;
     cin >> d >> c >> n >> di >> ci;    
     long long total = d*100 + c; 
-    long long total = total * n; // total cents to buy sausages
+    total = total * n; // total cents to buy sausages
 
     long long total_ss = di*100 + ci; // total cents in my wallet
     
@@ -17,3 +17,6 @@ int main(){
         cout << total/100 << " " << total%100;
     }
 }
+
+
+// all to cent => buy => dollar and cent
